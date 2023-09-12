@@ -1,4 +1,5 @@
 export * from './Articles';
+export * from './Banner';
 export * from './Card';
 export * from './CardWide';
 export * from './CaseStudies';

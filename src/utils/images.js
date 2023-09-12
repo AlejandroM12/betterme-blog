@@ -11,6 +11,8 @@ import blog7 from '@assets/img/metodologia-estudio.webp';
 import blog8 from '@assets/img/insercion-laboral.webp';
 import caseStudie1 from '@assets/img/case-studie-1.webp';
 import caseStudieAvatar1 from '@assets/img/jessica.jpg';
+import bannerHome from '@assets/img/banner-home.webp';
+import bannerBg from '@assets/img/bannerBg.svg';
 
 const images = {
   bg_base,
@@ -26,5 +28,7 @@ const images = {
   blog8,
   caseStudie1,
   caseStudieAvatar1,
+  bannerHome,
+  bannerBg,
 };
 export default images;

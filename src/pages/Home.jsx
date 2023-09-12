@@ -1,6 +1,7 @@
 import Container from '../layout/Container';
-import { Articles, CardWide, Case, Recent } from '../components';
+import { Articles, Banner, CardWide, Case, Recent } from '../components';
 import { blogs } from '../data/blog-posts';
+import images from '../utils/images';
 
 const Home = () => {
   return (
@@ -13,6 +14,10 @@ const Home = () => {
       <Recent />
       <Case />
       <Articles />
+      <div className='newsletter-curve'>
+        <img src={`${images.bannerBg}`} />
+      </div>
+      <Banner />
     </main>
   );
 };
