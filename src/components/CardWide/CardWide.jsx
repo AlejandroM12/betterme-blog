@@ -35,7 +35,7 @@ const CardWide = ({ blogItemData }) => {
               <div className='intro-verify flex items-center'>
                 <TfiLayoutLineSolid className='verify-icon' />
                 <span className='verify-status text-sm text'>
-                  Talent Acquisition Specialist
+                  {blogItemData.career}
                 </span>
               </div>
             </div>

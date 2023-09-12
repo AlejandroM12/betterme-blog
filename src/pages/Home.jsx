@@ -1,5 +1,5 @@
 import Container from '../layout/Container';
-import { CardWide, Recent } from '../components';
+import { CardWide, Case, Recent } from '../components';
 import { blogs } from '../data/blog-posts';
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
         </section>
       </Container>
       <Recent />
+      <Case />
     </main>
   );
 };

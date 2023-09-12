@@ -5,6 +5,7 @@ export const blogs = [
     id: 1,
     title: 'Desarrolla una Mayor Inteligencia Emocional',
     author: 'Lic. Mercedes Alonso Hidalgo',
+    career: 'Talent Acquisition Specialist',
     authorImage: images.author1,
     date: '2023',
     image: images.card_home,
@@ -34,5 +35,16 @@ export const blogs = [
     image: images.blog3,
     content:
       'Navegar por nuestras emociones es esencial en tiempos cambiantes. Aprende a usarlas como herramientas para tu bienestar.',
+  },
+  {
+    id: 5,
+    title: 'Redefiniendo Emociones',
+    author: 'Jessica Veliz',
+    date: 'Septiembre 2023',
+    career: 'Egresada de la Fundación Pescar',
+    authorImage: images.caseStudieAvatar1,
+    image: images.caseStudie1,
+    content:
+      'Jessica, egresada de la Fundación Pescar, mejoró su manejo emocional gracias a prácticas de autoconocimiento adquiridas en su formación.',
   },
 ];
