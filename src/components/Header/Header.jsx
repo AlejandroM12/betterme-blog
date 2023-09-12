@@ -36,7 +36,10 @@ const Header = () => {
             </form>
           </div>
 
-          <div className='hd-tags text-white flex items-center'>
+          <div
+            className='hd-tags text-white flex items-center'
+            id='popular-articles'
+          >
             <h3 className='hd-tags-title nowrap text-base'>
               Artículos Populares:
             </h3>

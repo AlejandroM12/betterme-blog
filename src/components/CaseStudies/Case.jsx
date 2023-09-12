@@ -1,6 +1,7 @@
 import { CardWide } from '../CardWide';
 import { blogs } from '../../data/blog-posts';
 import { HiArrowLongRight } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 
 const Case = () => {
   return (
@@ -13,12 +14,12 @@ const Case = () => {
               <p className='text text-base'>La Transformación de Jessica</p>
             </div>
             <div className='sc-head-r'>
-              <button type='button' className='btn btn-o-primary'>
+              <Link to='/cases' type='button' className='btn btn-o-primary'>
                 Ver Más
                 <span className='btn-icon'>
                   <HiArrowLongRight className='bi bi-arrow-right' />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
 

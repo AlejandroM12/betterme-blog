@@ -51,7 +51,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/sobreNosotros' className='nav-link'>
+              <Link to='/aboutUs' className='nav-link'>
                 Sobre Nosotros
               </Link>
             </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className='nav-btns'>
-            <a href='#' className='nav-btn btn'>
+            <a href='#popular-articles' className='nav-btn btn'>
               Explorar
             </a>
           </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { blogs } from '../../data/blog-posts';
 import { Card } from '../Card';
 import { HiArrowLongRight } from 'react-icons/hi2';
@@ -18,12 +19,12 @@ const Articles = () => {
               </p>
             </div>
             <div className='sc-head-r'>
-              <button type='button' className='btn btn-o-primary'>
+              <Link to='/articles' type='button' className='btn btn-o-primary'>
                 Ver Todos
                 <span className='btn-icon'>
                   <HiArrowLongRight className='bi bi-arrow-right' />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -52,12 +53,12 @@ const Articles = () => {
           </div>
 
           <div className='flex justify-center section-btn'>
-            <button type='button' className='btn btn-o-primary'>
+            <Link to='/articles' type='button' className='btn btn-o-primary'>
               Ver todos los artículos
               <span className='btn-icon'>
                 <HiArrowLongRight className='bi bi-arrow-right' />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
