@@ -1,12 +1,16 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Header } from './components';
+import Home from './pages/Home';
 import './App.scss';
-import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className='page-wrapper page-overlay'>
       <BrowserRouter>
         <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );
