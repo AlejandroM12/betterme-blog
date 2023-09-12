@@ -9,6 +9,7 @@ export const blogs = [
     authorImage: images.author1,
     date: '2023',
     image: images.card_home,
+    outstanding: 'Destacado',
     content:
       'La inteligencia emocional potencia nuestra capacidad para entender emociones, propias y ajenas. A lo largo de mi carrera, he visto cómo influye en decisiones y en la gestión de conflictos. Es una herramienta esencial para el autoconocimiento y el crecimiento personal.',
   },
@@ -43,6 +44,7 @@ export const blogs = [
     date: 'Septiembre 2023',
     career: 'Egresada de la Fundación Pescar',
     authorImage: images.caseStudieAvatar1,
+    outstanding: 'Destacado',
     image: images.caseStudie1,
     content:
       'Jessica, egresada de la Fundación Pescar, mejoró su manejo emocional gracias a prácticas de autoconocimiento adquiridas en su formación.',
@@ -173,6 +175,64 @@ export const arcticles = [
     image: images.blog8,
     content:
       'Navega el mercado laboral con confianza. Conoce herramientas y estrategias para posicionarte de manera destacada en tu campo.',
+  },
+];
+export const cases = [
+  {
+    id: 1,
+    title: 'Redefiniendo Emociones',
+    author: 'Jessica Veliz',
+    date: 'Septiembre 2023',
+    career: 'Egresada de la Fundación Pescar',
+    authorImage: images.caseStudieAvatar1,
+    image: images.caseStudie1,
+    content:
+      'Jessica, egresada de la Fundación Pescar, mejoró su manejo emocional gracias a prácticas de autoconocimiento adquiridas en su formación.',
+  },
+
+  {
+    id: 2,
+    title: 'Desarrollo de Liderazgo',
+    author: 'Ivan meier',
+    date: 'Septiembre 2023',
+    career: 'Egresado de la Fundación Pescar',
+    authorImage: images.caseStudieAvatar5,
+    image: images.caseStudie5,
+    content:
+      'Ivan, egresado de la Fundación Pescar, emergió como líder en su comunidad gracias a técnicas de liderazgo aprendidas en su capacitación.',
+  },
+  {
+    id: 3,
+    title: 'Potenciando la Creatividad',
+    author: 'Ariadna Rojas',
+    date: 'Septiembre 2023',
+    career: 'Egresada de la Fundación Pescar',
+    authorImage: images.caseStudieAvatar4,
+    image: images.caseStudie2,
+    content:
+      'Ariadna, egresada de la Fundación Pescar, canalizó su creatividad hacia proyectos innovadores a raíz de su formación inspiradora.',
+  },
+  {
+    id: 4,
+    title: 'Transformación Personal',
+    author: 'Florencia Rodriguez',
+    date: 'Septiembre 2023',
+    career: 'Egresada de la Fundación Pescar',
+    authorImage: images.caseStudieAvatar3,
+    image: images.caseStudie3,
+    content:
+      'Florencia, egresada de la Fundación Pescar, experimentó una profunda transformación personal, fortaleciendo su autoestima y visión de futuro gracias a su formación.',
+  },
+  {
+    id: 5,
+    title: 'Fortaleciendo la Comunicación',
+    author: 'Alejandro Morel',
+    date: 'Septiembre 2023',
+    career: 'Egresado de la Fundación Pescar',
+    authorImage: images.caseStudieAvatar2,
+    image: images.caseStudie4,
+    content:
+      'Alejandro, egresado de la Fundación Pescar, potenció su comunicación asertiva gracias a herramientas adquiridas durante su formación.',
   },
 ];
 export const socialLinks = ['Linkedin'];

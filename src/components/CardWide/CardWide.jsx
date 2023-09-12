@@ -14,7 +14,11 @@ const CardWide = ({ blogItemData }) => {
       </div>
       <div className='card-grid-text'>
         <div>
-          <div className='badge badge-primary'>Destacado</div>
+          {blogItemData.outstanding && (
+            <div className='badge badge-primary'>
+              {blogItemData.outstanding}
+            </div>
+          )}
           <h2 className='title-lg title featured-title'>
             {blogItemData.title}
           </h2>

@@ -3,6 +3,7 @@ import { Footer } from './components';
 import Home from './pages/Home';
 import './App.scss';
 import Articles from './pages/Articles';
+import Cases from './pages/Cases';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/article/:id' element={<Articles />} />
+          <Route path='/cases' element={<Cases />} />
         </Routes>
         <Footer />
       </BrowserRouter>
