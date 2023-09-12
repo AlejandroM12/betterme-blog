@@ -88,3 +88,26 @@ export const blogs = [
       'Navega el mercado laboral con confianza. Conoce herramientas y estrategias para posicionarte de manera destacada en tu campo.',
   },
 ];
+export const linksData = [
+  {
+    id: 'read-links',
+    title: 'Lea nuestros',
+    links: ['Artículos', 'Casos'],
+  },
+  {
+    id: 'quick-links',
+    title: 'Enlaces Rápidos',
+    links: [
+      'Test de personalidad',
+      'Comunicación asertiva',
+      'Técnica pomodoro',
+    ],
+  },
+  {
+    id: 'more-links',
+    title: 'Más',
+    links: ['Licencia', 'Sobre Nosotros', 'Nuestra política'],
+  },
+];
+
+export const socialLinks = ['Linkedin'];
