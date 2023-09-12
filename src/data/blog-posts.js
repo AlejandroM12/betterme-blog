@@ -47,4 +47,44 @@ export const blogs = [
     content:
       'Jessica, egresada de la Fundación Pescar, mejoró su manejo emocional gracias a prácticas de autoconocimiento adquiridas en su formación.',
   },
+  {
+    id: 6,
+    title: 'Administracion Personal',
+    date: 'Septiembre 2023',
+    image: images.blog4,
+    content:
+      'La administración personal es esencial para equilibrar la vida y el trabajo. Conoce estrategias para gestionar mejor tu tiempo y energía.',
+  },
+  {
+    id: 7,
+    title: 'Competencias Personales y Técnicas',
+    date: 'Septiembre 2023',
+    image: images.blog5,
+    content:
+      'Desarrolla habilidades clave que complementan tu formación técnica. Potencia tu perfil profesional y destaca en el mercado laboral.',
+  },
+  {
+    id: 8,
+    title: 'Habilidades Sociales y de Comunicación',
+    date: 'Septiembre 2023',
+    image: images.blog6,
+    content:
+      'La comunicación efectiva puede abrir puertas. Aprende a expresarte claramente y a construir relaciones sólidas en cualquier ámbito.',
+  },
+  {
+    id: 9,
+    title: 'Metodología de estudio',
+    date: 'Septiembre 2023',
+    image: images.blog7,
+    content:
+      'Una metodología adecuada es la base del aprendizaje eficiente. Descubre técnicas de estudio que potencien tu rendimiento académico.',
+  },
+  {
+    id: 10,
+    title: 'Inserción Laboral Efectiva',
+    date: 'Septiembre 2023',
+    image: images.blog8,
+    content:
+      'Navega el mercado laboral con confianza. Conoce herramientas y estrategias para posicionarte de manera destacada en tu campo.',
+  },
 ];

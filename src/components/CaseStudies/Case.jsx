@@ -1,5 +1,6 @@
 import { CardWide } from '../CardWide';
 import { blogs } from '../../data/blog-posts';
+import { HiArrowLongRight } from 'react-icons/hi2';
 
 const Case = () => {
   return (
@@ -15,7 +16,7 @@ const Case = () => {
               <button type='button' className='btn btn-o-primary'>
                 Ver Más
                 <span className='btn-icon'>
-                  <i className='bi bi-arrow-right'></i>
+                  <HiArrowLongRight className='bi bi-arrow-right' />
                 </span>
               </button>
             </div>
