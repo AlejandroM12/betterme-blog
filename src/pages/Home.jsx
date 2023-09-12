@@ -1,5 +1,5 @@
 import Container from '../layout/Container';
-import { CardWide } from '../components';
+import { CardWide, Recent } from '../components';
 import { blogs } from '../data/blog-posts';
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
           <CardWide blogItemData={blogs[0]} />
         </section>
       </Container>
+      <Recent />
     </main>
   );
 };

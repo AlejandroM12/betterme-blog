@@ -42,9 +42,9 @@ const Header = () => {
             </h3>
 
             <ul className='tags-list flex flex-wrap items-center'>
+              <li className='tags-item text-sm'>Autoestima</li>
               <li className='tags-item text-sm'>Autoconocimiento</li>
-              <li className='tags-item text-sm'>Administración del Tiempo</li>
-              <li className='tags-item text-sm'>Competencias Personales</li>
+              <li className='tags-item text-sm'>Gestión de Emociones</li>
             </ul>
           </div>
         </div>
