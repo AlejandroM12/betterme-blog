@@ -46,14 +46,19 @@ const Navbar = () => {
           </button>
           <ul className='nav-menu flex items-center'>
             <li className='nav-item'>
-              <a href='#' className='nav-link'>
+              <Link to='/' className='nav-link'>
                 Inicio
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a href='#' className='nav-link'>
+              <Link to='/sobreNosotros' className='nav-link'>
                 Sobre Nosotros
-              </a>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/articles' className='nav-link'>
+                Artículos
+              </Link>
             </li>
           </ul>
           <div className='nav-btns'>

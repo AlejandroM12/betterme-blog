@@ -18,7 +18,10 @@ const Card = ({ blogItemData, showContent, isCardSm }) => {
         </div>
         <div className='card-footer card-footer-light flex justify-between items-center'>
           <div className='writer-info'>
-            <Link to='/' className='tags-item text-sm link-more'>
+            <Link
+              to={`/article/${blogItemData.id}`}
+              className='tags-item text-sm link-more'
+            >
               Leer más
             </Link>
           </div>
