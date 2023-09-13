@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { blogs } from '../../data/blog-posts';
+import { articlesCards } from '../../data/blog-posts';
 import { Card } from '../Card';
 import { HiArrowLongRight } from 'react-icons/hi2';
 
@@ -29,7 +29,7 @@ const Articles = () => {
           </div>
 
           <div className='card-list grid-cols grid-cols-2'>
-            {blogs.slice(5, 7).map((blogItem) => {
+            {articlesCards.slice(3, 5).map((blogItem) => {
               return (
                 <Card
                   blogItemData={blogItem}
@@ -41,7 +41,7 @@ const Articles = () => {
           </div>
 
           <div className='card-list grid-cols grid-cols-3'>
-            {blogs.slice(7, 10).map((blogItem) => {
+            {articlesCards.slice(5, 8).map((blogItem) => {
               return (
                 <Card
                   blogItemData={blogItem}

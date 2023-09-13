@@ -7,6 +7,6 @@ export * from './CaseStudies';
 export * from './Footer';
 export * from './FooterLink';
 export * from './Header';
+export * from './Items';
 export * from './Navbar';
 export * from './RecentArticles';
-export * from './index';

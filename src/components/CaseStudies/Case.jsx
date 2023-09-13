@@ -1,5 +1,5 @@
 import { CardWide } from '../CardWide';
-import { blogs } from '../../data/blog-posts';
+import { testimonials } from '../../data/blog-posts';
 import { HiArrowLongRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const Case = () => {
             </div>
           </div>
 
-          <CardWide blogItemData={blogs[4]} />
+          <CardWide blogItemData={testimonials[1]} />
         </div>
       </div>
     </section>

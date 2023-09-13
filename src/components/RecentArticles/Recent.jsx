@@ -1,4 +1,4 @@
-import { blogs } from '../../data/blog-posts';
+import { articlesCards } from '../../data/blog-posts';
 import { Card } from '../Card';
 import { HiArrowLongRight } from 'react-icons/hi2';
 
@@ -25,7 +25,7 @@ const Recent = () => {
           </div>
 
           <div className='card-list grid-cols grid-cols-3'>
-            {blogs.slice(1, 4).map((blogItem) => {
+            {articlesCards.slice(0, 3).map((blogItem) => {
               return (
                 <Card
                   blogItemData={blogItem}

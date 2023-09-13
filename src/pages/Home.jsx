@@ -7,7 +7,7 @@ import {
   Header,
   Recent,
 } from '../components';
-import { blogs } from '../data/blog-posts';
+import { testimonials } from '../data/blog-posts';
 import images from '../utils/images';
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
       <main>
         <Container>
           <section className='featured-sc bg-white'>
-            <CardWide blogItemData={blogs[0]} />
+            <CardWide blogItemData={testimonials[0]} />
           </section>
         </Container>
         <Recent />

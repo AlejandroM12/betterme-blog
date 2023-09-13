@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { CardArticles } from '../components';
-import { blogs } from '../data/blog-posts';
+import { articlesCards } from '../data/blog-posts';
 import Container from '../layout/Container';
 import HeaderSection from '../layout/HeaderSection';
 import { useEffect } from 'react';
@@ -10,7 +10,7 @@ const Articles = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const article = blogs.find((blog) => blog.id === parseInt(id));
+  const article = articlesCards.find((blog) => blog.id === parseInt(id));
   if (!article) {
     return <div>Artículo no encontrado</div>;
   }
